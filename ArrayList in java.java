@@ -12,5 +12,8 @@ public class Main
 		System.out.println(cse);
 		System.out.println(cse.get(0));
 		System.out.println(cse.size());
+		System.out.println("Before Clear:"+cse);
+		cse.clear();
+		System.out.println("After Clear:"+cse);
 	}
 }
