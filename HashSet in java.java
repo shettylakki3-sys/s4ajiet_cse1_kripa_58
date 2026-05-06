@@ -9,8 +9,12 @@ public class Main
 	    cse.add(7);
 	    cse.remove(7);
 	    cse.contains("kripa");
+	  
 		System.out.println(cse);
 		System.out.println("kripa is consist or not:"+cse.contains("kripa"));
+		System.out.println("Before clear:"+cse);
+		cse.clear();
+		System.out.println("After clear:"+cse);
 		System.out.println(cse.size());
 	
 	}
